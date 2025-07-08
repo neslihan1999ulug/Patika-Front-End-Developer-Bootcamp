@@ -1,6 +1,4 @@
 
-
-
 <p align="center">
-  <img src="./src/bg_image.jpg" width="80%" alt="Banner">
+  <img src="./src/class.gif" width="80%" alt="Banner">
 </p>
