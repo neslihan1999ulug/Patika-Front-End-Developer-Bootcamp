@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Main container for the form layout -->
+    <div class="container"> 
+
+        <!-- Header section of the form -->
+        <div class="form-header">
+            <h2>Create Account</h2>
+        </div>
+
+        <!-- Start of the form -->
+        <form action="">
+
+            <!-- Username input box -->
+            <div class="input-box">
+                <label for="username">Userame</label>
+                <input type="text" placeholder="Enter username" required>
+            </div>
+
+            <!-- Email input box -->
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your valid email address" required>
+            </div>
+
+            <!-- Password input box -->
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter password" required>
+            </div>
+
+            <!-- Gender selection box -->
+            <div class="input-box">
+                <p>Cinsiyet</p>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label><br>
+            </div>
+
+            <!-- Dropdown selection for favorite fruits -->
+            <div class="input-box">
+                <label for="fruits">Select your favourite fruits:</label><br>
+                <select id="fruits" name="fruits">
+                    <option value="banana">banana</option>
+                    <option value="apple">apple</option>
+                    <option value="blueberry">blueberry</option>
+                    <option value="apricot">apricot</option>
+                    <option value="cherry">cherry</option>
+                    <option value="figs">figs</option>
+                    <option value="kiwi">kiwi</option>
+                </select><br>
+            </div>
+
+            <!-- Message text area -->
+            <div class="input-box">
+                <label for="message">Message</label><br>
+                <textarea id="message" name=" message" rows="4" cols="35"></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <button class="btn" type="submit">Send</button>    
+        </form>
+        <!-- End of the form -->
+    </div>
+    <!-- End of main container -->
+</body>
+</html>
